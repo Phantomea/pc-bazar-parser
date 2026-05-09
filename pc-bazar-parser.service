@@ -1,0 +1,18 @@
+[Unit]
+Description=PC Bazar Parser
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/pc-bazar-parser
+ExecStart=/usr/bin/node server.js
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=pc-bazar-parser
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target
