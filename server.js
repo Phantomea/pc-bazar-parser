@@ -155,6 +155,6 @@ app.post('/parse', (req, res) => {
   });
 });
 
-app.listen(3518, '127.0.0.1', () => {
-  console.log('PC Parser beží na http://127.0.0.1:3518');
+app.listen(3518, '0.0.0.0', () => {
+  console.log('PC Parser beží na http://0.0.0.0:3518');
 });

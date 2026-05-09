@@ -1,0 +1,6 @@
+services:
+  pc-bazar-parser:
+    build: .
+    ports:
+      - "3518:3518"
+    restart: unless-stopped
