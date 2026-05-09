@@ -89,7 +89,7 @@ app.use(express.json({ limit: '1mb' }));
 
 app.use((req, res, next) => {
   const origin = req.headers.origin ?? '';
-  if (/^https?:\/\/(localhost|127\.0\.0\.1|46\.224\.165\.139)(:\d+)?$/.test(origin)) {
+  if (/^https?:\/\/(localhost|127\.0\.0\.1|46\.224\.165\.139|[a-z0-9-]+\.46-224-165-139\.sslip\.io)(:\d+)?$/.test(origin)) {
     res.setHeader('Access-Control-Allow-Origin', origin);
     res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
