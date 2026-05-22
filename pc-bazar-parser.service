@@ -13,6 +13,7 @@ StandardOutput=journal
 StandardError=journal
 SyslogIdentifier=pc-bazar-parser
 Environment=NODE_ENV=production
+Environment=PATH=/usr/local/bin:/usr/bin:/bin
 
 [Install]
 WantedBy=multi-user.target
