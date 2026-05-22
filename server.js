@@ -5,7 +5,7 @@ import { dirname } from 'path';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-const MOCK_RESPONSE = {"name":"Predám počítač pre náročných hráčov","description":"Výkonný herný počítač ideálny pre náročných hráčov a profesionálov. Zvláda všetky moderné hry na ULTRA nastaveniach v QHD/2K rozlíšení s 60-120+ FPS a je plne schopný zvládnuť aj UHD/4K s FSR technológiou.\n\nProcesor AMD Ryzen 7 5700X (8 jadier, 16 vlákien) v kombinácii s výkonnou grafikou AMD Radeon RX 7900XT od Sapphire Nitro+ série poskytuje vynikajúcu výkonnosť v hrách aj profesionálnych aplikáciách. Pamäť 32 GB DDR4 na 3600 MHz s CL18 latenciou umožňuje plynulý chod aj náročnejších úloh. Systém je osadený rýchlymi NVMe SSD diskmi pre rapídne načítavanie.\n\nPočítač je vybavený modernými vodným chladením NZXT Kraken 280 s nastaviteľným digitálnym displayom pre optimálne teploty. Pevná skrinka Montech XR poskytuje kvalitné spracovanie a dobrý vzduchový tok.\n\nVšetky komponenty sú staršieho dáta, ale s platnou gáranciou Alza. Skrinka je úplne nová. Počítač má čerstvo nainštalovaný Windows 11 Pro s aktiváciou a Steam. Benchmarky a informácie o teplotách sú dostupné na požiadavku. Ponuka je dostupná v osobnom stretnutí s možnosťou vyskúšania, dovoze v okreoch Gemer-Malohont, Trenčín a Nitra, alebo odoslaním so zaplatením plnej sumy vopred. Dohoda možná.","price":{"amount":2100,"currency":"EUR"},"components":{"cpu":{"raw_name":"AMD Ryzen 7 5700X"},"gpu":{"raw_name":"Sapphire Nitro+ RX 7900XT"},"ram":{"raw_name":"Patriot Viper 4 Blackout Series 32GB DDR4-3600 CL18"},"motherboard":{"raw_name":"GIGABYTE B550 GAMING X V2"},"psu":{"raw_name":"GIGABYTE P850GM 850W"},"case":{"raw_name":"Montech XR"},"cooler":{"raw_name":"NZXT Kraken 280"},"storage":[{"raw_name":"GIGABYTE Gen4 4000E 1TB"},{"raw_name":"SAMSUNG 870 512MB"}]},"operating_system":"Windows 11 Pro","warranty":null,"accessories":[]};
+const MOCK_RESPONSE = {"name":"Predám počítač pre náročných hráčov","description":"Výkonný herný počítač ideálny pre náročných hráčov a profesionálov. Zvláda všetky moderné hry na ULTRA nastaveniach v QHD/2K rozlíšení s 60-120+ FPS a je plne schopný zvládnuť aj UHD/4K s FSR technológiou.\n\nProcesor AMD Ryzen 7 5700X (8 jadier, 16 vlákien) v kombinácii s výkonnou grafikou AMD Radeon RX 7900XT od Sapphire Nitro+ série poskytuje vynikajúcu výkonnosť v hrách aj profesionálnych aplikáciách. Pamäť 32 GB DDR4 na 3600 MHz s CL18 latenciou umožňuje plynulý chod aj náročnejších úloh. Systém je osadený rýchlymi NVMe SSD diskmi pre rapídne načítavanie.\n\nPočítač je vybavený modernými vodným chladením NZXT Kraken 280 s nastaviteľným digitálnym displayom pre optimálne teploty. Pevná skrinka Montech XR poskytuje kvalitné spracovanie a dobrý vzduchový tok.\n\nVšetky komponenty sú staršieho dáta, ale s platnou gáranciou Alza. Skrinka je úplne nová. Počítač má čerstvo nainštalovaný Windows 11 Pro s aktiváciou a Steam. Benchmarky a informácie o teplotách sú dostupné na požiadavku. Ponuka je dostupná v osobnom stretnutí s možnosťou vyskúšania, dovoze v okreoch Gemer-Malohont, Trenčín a Nitra, alebo odoslaním so zaplatením plnej sumy vopred. Dohoda možná.","price":{"amount":2100,"currency":"EUR"},"components":{"cpu":{"raw_name":"AMD Ryzen 7 5700X"},"gpu":[{"raw_name":"Sapphire Nitro+ RX 7900XT"},{"raw_name":"Sapphire Nitro+ RX 7900XT"}],"ram":{"raw_name":"Patriot Viper 4 Blackout Series 32GB DDR4-3600 CL18"},"motherboard":{"raw_name":"GIGABYTE B550 GAMING X V2"},"psu":{"raw_name":"GIGABYTE P850GM 850W"},"case":{"raw_name":"Montech XR"},"cooler":{"raw_name":"NZXT Kraken 280"},"storage":[{"raw_name":"GIGABYTE Gen4 4000E 1TB"},{"raw_name":"GIGABYTE Gen4 4000E 1TB"}]},"operating_system":"Windows 11 Pro","warranty":null,"accessories":[],"configurations":[{"price":{"amount":2100,"currency":"EUR"},"components":{"cpu":{"raw_name":"AMD Ryzen 7 5700X"},"gpu":[{"raw_name":"Sapphire Nitro+ RX 7900XT"},{"raw_name":"Sapphire Nitro+ RX 7900XT"}],"ram":{"raw_name":"Patriot Viper 4 Blackout Series 32GB DDR4-3600 CL18"},"motherboard":{"raw_name":"GIGABYTE B550 GAMING X V2"},"psu":{"raw_name":"GIGABYTE P850GM 850W"},"case":{"raw_name":"Montech XR"},"cooler":{"raw_name":"NZXT Kraken 280"},"storage":[{"raw_name":"GIGABYTE Gen4 4000E 1TB"},{"raw_name":"GIGABYTE Gen4 4000E 1TB"}]},"operating_system":"Windows 11 Pro","warranty":null},{"price":{"amount":2100,"currency":"EUR"},"components":{"cpu":{"raw_name":"AMD Ryzen 7 5700X"},"gpu":[{"raw_name":"Sapphire Nitro+ RX 7900XT"},{"raw_name":"Sapphire Nitro+ RX 7900XT"}],"ram":{"raw_name":"Patriot Viper 4 Blackout Series 32GB DDR4-3600 CL18"},"motherboard":{"raw_name":"GIGABYTE B550 GAMING X V2"},"psu":{"raw_name":"GIGABYTE P850GM 850W"},"case":{"raw_name":"Montech XR"},"cooler":{"raw_name":"NZXT Kraken 280"},"storage":[{"raw_name":"GIGABYTE Gen4 4000E 1TB"},{"raw_name":"GIGABYTE Gen4 4000E 1TB"}]},"operating_system":"Windows 11 Pro","warranty":null}]};
 
 
 const SYSTEM_PROMPT = `Si parser PC inzerátov v slovenčine/češtine. Z textu vytiahni štruktúrované údaje a vráť IBA validný JSON, žiadny markdown, žiadne \`\`\` fences, žiadny komentár.
@@ -27,7 +27,15 @@ Schéma JSON:
   },
   "operating_system": "..." | null,
   "warranty": 2 | null,
-  "accessories": [ { "category": "monitor" | "keyboard" | "mouse" | "headset" | "speakers" | "webcam" | "other", "raw_name": "..." } ]
+  "accessories": [ { "category": "monitor" | "keyboard" | "mouse" | "headset" | "speakers" | "webcam" | "other", "raw_name": "..." } ],
+  "configurations": [
+    {
+      "price": { "amount": 1500, "currency": "EUR" } | null,
+      "components": { "cpu": ..., "gpu": ..., "ram": ..., "motherboard": ..., "psu": ..., "case": ..., "cooler": ..., "storage": [...] },
+      "operating_system": "..." | null,
+      "warranty": 2 | null
+    }
+  ]
 }
 
 Pravidlá:
@@ -40,7 +48,15 @@ Pravidlá:
 - operating_system: napr. "Windows 11 Pro", "Windows 10 Home OEM", "bez OS", "Linux Mint". Ak nie je spomenutý, null.
 - warranty: celé číslo = počet rokov záruky, alebo null. Pravidlá: "2 roky záruky" → 2. "24 mesiacov" → 2. "12 mesiacov" → 1. "bez záruky" → 0. Záruky viazané na predajcu / eshop (napr. "záruky u Alzy", "záruka v obchode", "záručný list od predajcu") → null, lebo nie sú prenosné. Ak záručná doba nie je jasne číselne vyjadrená → null.
 - accessories: všetko čo nie je súčasťou samotnej skrinky — monitory, periférie, reproduktory, atď. category z fixného zoznamu vyššie, "other" pre čokoľvek mimo. raw_name = celý názov vrátane modelu (napr. "LG 27GP850-B", "Logitech G915 TKL").
-- Ak niektorá súčiastka v inzeráte nie je spomenutá, daj null (alebo prázdne pole pre storage/accessories). NIČ SI NEVYMÝŠĽAJ. Lepšie null než tipovať.`;
+- Ak niektorá súčiastka v inzeráte nie je spomenutá, daj null (alebo prázdne pole pre storage/accessories). NIČ SI NEVYMÝŠĽAJ. Lepšie null než tipovať.
+
+KONFIGURÁCIE (configurations):
+- configurations je VŽDY pole obsahujúce aspoň jednu položku — základnú konfiguráciu (rovnaká ako top-level price + components).
+- Ak inzerát ponúka možnosť výmeny/upgradu komponentu (napr. "možnosť výmeny GPU za X za +50€", "rovnaká cena s iným GPU"), vytvor pre KAŽDÚ možnosť samostatnú konfiguráciu.
+- Každá konfigurácia = kompletná kópia components so zámenou príslušného komponentu a upravenou cenou.
+- Príklad: základná cena 1000€, GPU výmena za RTX 3060 Ti za +60€ → konfigurácia 2 má price.amount = 1060 a gpu.raw_name = "EVGA GeForce RTX 3060 Ti XC BLACK".
+- Ak je náhrada "rovnaká cena" / "same price", price.amount ostáva nezmenená oproti základnej konfigurácii.
+- Poradie: základná konfigurácia vždy ako prvá, alternatívy za ňou.`;
 
 function extractJson(raw) {
   // 1. Direct parse
@@ -104,8 +120,7 @@ app.post('/parse', (req, res) => {
     return res.status(400).json({ error: 'Chýba text inzerátu' });
   }
 
-  // MOCK – vráti testovací výsledok namiesto volania Clauda
-  return res.json(MOCK_RESPONSE);
+  // return res.json(MOCK_RESPONSE);
 
   let stdout = '';
   let stderr = '';
